@@ -21,4 +21,5 @@ Setup:
 5. CSS vs SCSS : https://www.javatpoint.com/css-vs-scss
     https://www.geeksforgeeks.org/what-is-the-difference-between-scss-and-sass/
     https://www.ionos.com/digitalguide/websites/web-development/sass/
+6. ng build and ng serve app will be available at http://localhost:4200
     
