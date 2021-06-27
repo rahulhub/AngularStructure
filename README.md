@@ -22,4 +22,6 @@ Setup:
     https://www.geeksforgeeks.org/what-is-the-difference-between-scss-and-sass/
     https://www.ionos.com/digitalguide/websites/web-development/sass/
 6. ng build and ng serve app will be available at http://localhost:4200
+7. ng generate component components/header // this will genrate an component under folder app/component/header. Also this component will be added in the app.module.ts
+8.  
     
