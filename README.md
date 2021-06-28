@@ -23,5 +23,11 @@ Setup:
     https://www.ionos.com/digitalguide/websites/web-development/sass/
 6. ng build and ng serve app will be available at http://localhost:4200
 7. ng generate component components/header // this will genrate an component under folder app/component/header. Also this component will be added in the app.module.ts
-8.  
-    
+8. Add bootstrap:  npm install bootstrap
+9. For boot strap JS uae :npm install ngx-bootstrap --save
+10. Go through the noe_modules/ngx-bootstrap and add the modules needed in your app.module.ts. For example, suppose we want to use the Dropdown, Tooltip and Modal components:
+        import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+        import { TooltipModule } from 'ngx-bootstrap/tooltip';
+        import { ModalModule } from 'ngx-bootstrap/modal';
+  Note: this gives compilation exception but on restart of ng serve it vanished 
+
